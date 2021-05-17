@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Admin </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- added  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--   -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Set black background color, white text and some padding */
+        
+        #dashboard {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+        
+        h6 {
+            font-size: larger;
+        }
+        
+        footer {
+            margin-top: 0%;
+        }
+        
+        #myNavbar {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <img src="images/logo.jpeg" class="img-circle" height="85" width="85" alt="Avatar">
+                <!-- <a class="navbar-brand" href="#">Logo</a> -->
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Messages</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group input-group">
+                        <input type="text" class="form-control" placeholder="Search..">
+                        <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center">
+        <div class="row">
+            <div id="dashboard" class="col-sm-3 well">
+                <div id="dashboard" class="well">
+                    <h6>
+                        <a href="#">Dashboard</a>
+                    </h6>
+                    <!-- <img src="" class="img-circle" height="65" width="65" alt="Admin profile"> -->
+                </div>
+                <div class="well">
+                    <h6><a href="#">Quick Links</a>
+                    </h6>
+                    <p>
+                        <span class="label label-default">News</span>
+                        <span class="label label-primary">Journals</span>
+                        <span class="label label-success">Power Seminar</span>
+                        <span class="label label-info">SkillEdge</span>
+                        <span class="label label-warning">Get Set Go</span>
+                        <span class="label label-danger">Connect Magazine</span>
+                    </p>
+                </div>
+                <div class="alert alert-default fade in">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                    <h6><strong>COURSE Details</strong>
+                    </h6> course which are currently going
+                </div>
+                <p><a href="#">Mean stack</a></p>
+                <p><a href="#">Mern stack</a></p>
+                <p><a href="#">Python</a></p>
+                <!-- <div id="dashboard" class="well"> -->
+
+                <p contenteditable="true">Annual Report 2020-2021</p>
+                <p contenteditable="true">Trainer Enrollment Details</p>
+                <p contenteditable="true">Accademy Details</p>
+
+                <!-- </div> -->
+            </div>
+
+            <div class="col-sm-7">
+
+                <!-- <div class="row">
+                    <div class="col-sm-12">
+                        <div class="panel panel-default text-left">
+                            <div class="panel-body">
+                                <p contenteditable="true">Annual Report 2020-2021</p>
+                                <button type="button" class="btn btn-default btn-sm">
+                                 <span class="glyphicon glyphicon-thumbs-up"></span> Like
+                                 </button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="well">
+                            <p>Faculty Development</p>
+                            <img src="images/faculty.jpg" class="img-circle" height="85" width="85" alt="Avatar">
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="well">
+                            <p>The aim of India’s higher education system is attaining sustainable development and achieving higher growth rates which could be enabled through creation, transmission and dissemination of knowledge.<a href="#">Read More</a>                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="well">
+                            <p>Skill Development</p>
+                            <img src="images/skill develops.jpg" class="img-circle" height="85" width="85" alt="Avatar">
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="well">
+                            <p>Skill Development and Entrepreneurship development efforts across the country have been highly fragmented so far. Though India enjoys the demographic advantage of having the youngest workforce with an average age of 29 years
+                                in comparison with the advanced economies, as opposed to the developed countries, where the percentage of ske (20-24 years) with formal employability skills.<a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="well">
+                            <p>Entrepreneurship Development</p>
+                            <img src="images/develop entrepreneurial.jpg" class="img-circle" height="85" width="85" alt="Avatar">
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="well">
+                            <p>Entrepreneurs play an important role in the economic development of a country. Successful entrepreneurs innovate, bring new products and concepts to the market, improve market efficiency, build wealth, create jobs, and enhance
+                                economic growth.<a href="#">Read More</a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="well">
+                            <p> Youth Empowerment</p>
+                            <img src="images/youth em.jpg" class="img-circle" height="85" width="85" alt="Avatar">
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="well">
+                            <p>By 2020, India’s population is expected to become the world’s youngest; more than 500 million Indian citizens will be under 25 years of age and more than two thirds of the population will be eligible to work. <a href="#">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 well">
+                <div class="thumbnail">
+                    <p>Upcoming Events:</p>
+                    <img src="images/UPcomming.jpg" alt="Paris" width="400" height="300">
+                    <p><strong>DIGITAL EMPOWERMENT</strong></p>
+                    <p>Fri. 20 June 2021</p>
+                    <a href="" class="btn btn-primary">Info</a>
+                </div>
+                <!-- <div class="well"> -->
+                <div class="thumbnail">
+                    <p>Training</p>
+                    <img src="images/workshops.jpg" alt="Paris" width="400" height="300">
+                    <p><strong>Workshop</strong></p>
+                    <p>Fri. 20 May 2021</p>
+                    <a href="" class="btn btn-primary">Info</a>
+                </div>
+                <!-- <div class="well"> -->
+
+                <div class="thumbnail">
+                    <p>Training</p>
+                    <img src="images/faculty develoment.jpg" alt="Paris" width="400" height="300">
+                    <p><strong>Seminar</strong></p>
+                    <p>Fri. 20 May 2021</p>
+                    <a href="" class="btn btn-primary">Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- <footer class="container-fluid text-center"> -->
+    <footer class="mainfooter" role="contentinfo">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4>About Us</h4>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#"></a>
+                                </li>
+                                <li>
+                                    <a href="#">About ICT Academy</a>
+                                </li>
+                                <li><a href="#">Contact Directory</a></li>
+                                <li>
+                                    <a href="#">Board of Governors</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li><a href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4>Initiatives</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Website Tutorial</a></li>
+                                <li><a href="#">Accessibility</a></li>
+                                <li><a href="#">Disclaimer</a></li>
+                                <li>
+                                    <a href="#">Research & Publications</a>
+                                </li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Webmaster</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h4>Events & Awards</h4>
+                            <ul class="list-unstyled">
+
+                                <li>
+                                    <a href="#">Awards</a>
+                                </li>
+                                <li>
+                                    <a href="#">Conclave</a>
+                                </li>
+                                <li>
+                                    <a href="#">POWER SEMINAR
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">ICT Academy Digital Literacy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Conference Collaboration</a>
+                                </li>
+                                <li>
+                                    <a href="#">ICT Academy Digital Literacy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Follow Us</h4>
+                        <ul class="social-network social-circle">
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 copy">
+                        <p class="text-center">&copy; Copyright 2021 - ICT Academy of Kerala. All rights reserved.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
